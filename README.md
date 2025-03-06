@@ -1,0 +1,1 @@
+Unused classrooms on UIUC campus inside any building, at any time, and on any day of the week.
