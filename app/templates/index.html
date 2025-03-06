@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>Find Free Rooms</title>
+</head>
+<body>
+  <h1>Find Free Rooms</h1>
+  <p>Enter a day code (e.g., "M", "T", "W", "R", "F") and time (e.g., "1300").</p>
+
+  <form id="queryForm">
+    <label for="day">Day:</label>
+    <input type="text" id="day" name="day" required>
+    <label for="time">Time:</label>
+    <input type="number" id="time" name="time" required>
+    <button type="submit">Check Availability</button>
+  </form>
+
+  <h2>Results</h2>
+  <ul id="results"></ul>
+
+  <script src="{{ url_for('static', filename='main.js') }}"></script>
+</body>
+</html>
